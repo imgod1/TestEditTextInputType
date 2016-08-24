@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.gk.testedittextinputtype.MainActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="none"
+            android:inputType="none" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="date"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="datetime"
+            android:inputType="datetime" />
+
+        <!--仅仅只能输入数字.连小数点这个符号都不能深入-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="number"
+            android:inputType="number" />
+        <!--允许输入小数点的数字键盘-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="numberDecimal"
+            android:inputType="numberDecimal" />
+        <!--数字密码-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="numberPassword"
+            android:inputType="numberPassword" />
+        <!--有符号数字格式 可以以正负号开始-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="numberSigned"
+            android:inputType="numberSigned" />
+        <!--电话拨号盘,但是并没有对位数什么的进行限制,还是需要自己动态判断的-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone"
+            android:inputType="phone" />
+        <!--输入文本-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="text"
+            android:inputType="text" />
+        <!--自动补全的文本输入-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textAutoComplete"
+            android:inputType="textAutoComplete" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textAutoCorrect"
+            android:inputType="textAutoCorrect" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textCapWords"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textEmailAddress"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textEmailSubject"
+            android:inputType="textEmailSubject" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textFilter"
+            android:inputType="textFilter" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textImeMultiLine"
+            android:inputType="textImeMultiLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textLongMessage"
+            android:inputType="textLongMessage" />
+        <!--多行文本,键盘会显示换行符号-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textMultiLine"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textNoSuggestions"
+            android:inputType="textNoSuggestions" />
+
+        <!--这个真的能输入汉字哟
+            如果想让只能输入字母数字的话可以用android:digits="ad112"过滤
+        -->
+        <EditText
+            android:id="@+id/etxt_txt_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textPassword"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textPersonName"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textPhonetic"
+            android:inputType="textPhonetic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textPostalAddress"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textShortMessage"
+            android:inputType="textShortMessage" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textUri"
+            android:inputType="textUri" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textVisiblePassword"
+            android:inputType="textVisiblePassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textWebEditText"
+            android:inputType="textWebEditText" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textWebEmailAddress"
+            android:inputType="textWebEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="textWebPassword"
+            android:inputType="textWebPassword" />
+    </LinearLayout>
+</ScrollView>
+
